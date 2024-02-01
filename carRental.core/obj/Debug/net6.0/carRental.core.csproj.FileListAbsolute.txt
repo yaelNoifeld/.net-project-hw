@@ -1,0 +1,12 @@
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\bin\Debug\net6.0\carRental.core.deps.json
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\bin\Debug\net6.0\carRental.core.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\bin\Debug\net6.0\carRental.core.pdb
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.csproj.AssemblyReference.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.AssemblyInfoInputs.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.AssemblyInfo.cs
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\refint\carRental.core.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\carRental.core.pdb
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.core\obj\Debug\net6.0\ref\carRental.core.dll

@@ -1,0 +1,17 @@
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.csproj.AssemblyReference.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.AssemblyInfoInputs.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.AssemblyInfo.cs
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\bin\Debug\net6.0\carRental.data.deps.json
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\bin\Debug\net6.0\carRental.data.runtimeconfig.json
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\bin\Debug\net6.0\carRental.data.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\bin\Debug\net6.0\carRental.data.pdb
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\bin\Debug\net6.0\carRental.core.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\bin\Debug\net6.0\carRental.core.pdb
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.csproj.CopyComplete
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\refint\carRental.data.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.pdb
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\carRental.data.genruntimeconfig.cache
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental.data\obj\Debug\net6.0\ref\carRental.data.dll

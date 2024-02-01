@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "carRental.service/1.0.0": {
+        "dependencies": {
+          "carRental.core": "1.0.0"
+        },
+        "runtime": {
+          "carRental.service.dll": {}
+        }
+      },
+      "carRental.core/1.0.0": {
+        "runtime": {
+          "carRental.core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "carRental.service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "carRental.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
