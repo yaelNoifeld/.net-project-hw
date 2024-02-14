@@ -66,3 +66,5 @@ C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_
 C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental_api\obj\Debug\net6.0\carRental.Api.pdb
 C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental_api\obj\Debug\net6.0\carRental.Api.genruntimeconfig.cache
 C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental_api\obj\Debug\net6.0\ref\carRental.Api.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental_api\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\User\Documents\תכנות\שנה ב\.net\שיעורי בית\carRental_api\carRental_api\obj\Debug\net6.0\carRental.Api.MvcApplicationPartsAssemblyInfo.cs

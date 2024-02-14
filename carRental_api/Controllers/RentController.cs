@@ -1,4 +1,7 @@
-﻿using carRental.core.Models;
+﻿using AutoMapper;
+using carRental.Api.Models;
+using carRental.core.DTOs;
+using carRental.core.Models;
 using carRental.core.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,40 +14,48 @@ namespace carRental.Api.Controllers
     public class RentController : ControllerBase
     {
         private readonly IRentService _rentService;
+        private readonly IMapper _mapper;
 
-        public RentController(IRentService rentService)
+        public RentController(IRentService rentService, IMapper mapper)
         {
             _rentService = rentService;
+            _mapper = mapper;
         }
 
         // GET: api/<RentController>
         [HttpGet]
-        public IEnumerable<Rent> Get()
+        public ActionResult Get()
         {
-            return _rentService.GetAll();
+            var rents = _rentService.GetAll();
+            var rentsDto = _mapper.Map<IEnumerable<RentDto>>(rents);
+            return Ok(rentsDto);
         }
 
         // GET api/<RentController>/5
         [HttpGet("{id}")]
-        public Rent Get(int id)
+        public ActionResult Get(int id)
         {
-            return _rentService.GetById(id);
+            var rent= _rentService.GetById(id);
+            var rentDto = _mapper.Map<RentDto>(rent);
+            return Ok(rentDto);
         }
 
         // POST api/<RentController>
         [HttpPost]
-        public Rent Post([FromBody] Rent rent)
+        public ActionResult Post([FromBody] RentPostModel rent)
         {
-            _rentService.Add(rent);
-            return rent;
+            var rentToAdd = new Rent { Car = rent.Car, date = rent.date };
+            _rentService.Add(rentToAdd);
+            return Ok(rentToAdd);
         }
 
         // PUT api/<RentController>/5
         [HttpPut("{id}")]
-        public Rent Put(int id, [FromBody] Rent rent)
+        public ActionResult Put(int id, [FromBody] RentPostModel rent)
         {
-            _rentService.Update(id, rent);
-            return rent;
+            var rentToUpdate= new Rent { Car = rent.Car, date = rent.date };
+            _rentService.Update(id, rentToUpdate);
+            return Ok(rentToUpdate);
         }
 
         // DELETE api/<RentController>/5

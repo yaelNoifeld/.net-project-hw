@@ -22,7 +22,7 @@ namespace carRental.data.Repository
         {
             _context.Rents.Add(rent);
             _context.SaveChanges();
-            return rent;    
+            return rent;
         }
 
         public void DeleteById(int id)
@@ -33,12 +33,12 @@ namespace carRental.data.Repository
 
         public Rent GetById(int id)
         {
-            return _context.Rents.ToList().Find(x => x.Id == id);
+            return _context.Rents.Include(r=>r.Car).Include(r=>r.Renter).ToList().Find(x => x.Id == id);
         }
 
         public List<Rent> GetList()
         {
-            return _context.Rents.Include(r=>r.Car).Include(r=>r.Renter).ToList();
+            return _context.Rents.Include(r => r.Car).Include(r => r.Renter).ToList();
         }
 
         public Rent Update(int id, Rent rent)

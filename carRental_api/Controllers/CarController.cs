@@ -1,4 +1,7 @@
-﻿using carRental.core.Models;
+﻿using AutoMapper;
+using carRental.Api.Models;
+using carRental.core.DTOs;
+using carRental.core.Models;
 using carRental.core.Services;
 using carRental.service;
 using Microsoft.AspNetCore.Mvc;
@@ -13,41 +16,48 @@ namespace carRental.Api.Controllers
     public class CarController : ControllerBase
     {
         private readonly ICarService _carService;
-
-        public CarController(ICarService carService)
+        private readonly IMapper _mapper;
+        public CarController(ICarService carService, IMapper mapper)
         {
             _carService = carService;
+            _mapper = mapper;
         }
 
         // GET: api/<CarController>
         // GET: api/<CarsController>
         [HttpGet]
-        public IEnumerable<Car> Get()
+        public ActionResult Get()
         {
-            return _carService.GetAll();
+            var cars = _carService.GetAll();
+            var carsDto = _mapper.Map<IEnumerable<CarDto>>(cars);
+            return Ok(carsDto);
         }
 
         // GET api/<CarsController>/5
         [HttpGet("{id}")]
-        public Car Get(int id)
+        public ActionResult Get(int id)
         {
-            return _carService.GetById(id);
+            var car = _carService.GetById(id);
+            var carDto = _mapper.Map<CarDto>(car);
+            return Ok(carDto);
         }
 
         // POST api/<CarsController>
         [HttpPost]
-        public Car Post([FromBody] Car car)
+        public ActionResult Post([FromBody] CarPostModel car)
         {
-            _carService.Add(car);
-            return car;
+            var carToAdd = new Car { Loc = car.Loc, Status = car.Status };
+            var newCar = _carService.Add(carToAdd);
+            return Ok(newCar);
         }
 
         // PUT api/<CarsController>/5
         [HttpPut("{id}")]
-        public Car Put(int id, [FromBody] Car car)
+        public ActionResult Put(int id, [FromBody] CarPostModel car)
         {
-            _carService.Update(id, car);
-            return car;
+            var carToAdd= new Car { Loc = car.Loc, Status = car.Status };
+            var newCar= _carService.Update(id, carToAdd);
+            return Ok(newCar);
         }
 
         // DELETE api/<CarsController>/5

@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "14FHWbsYoW4t1FNAxZPvUIDnCREqIVwPh412psG6z+L0oDym6Tftqa+jOy6l3ENlEbvgTp/O1xA8IlTMtgnTAQ==",
+  "dgSpecHash": "xRXYb5TQVLwwi52nZXMOB9d65tE/cq8IHlu7s5pzhpL1+9Jss21V5TftLzt2wcCOHbaEwiPBXq/wbrBcG8jOgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\תכנות\\שנה ב\\.net\\שיעורי בית\\carRental_api\\carRental.service\\carRental.service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

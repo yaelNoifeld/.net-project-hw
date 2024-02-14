@@ -1,9 +1,11 @@
+using carRental.core;
 using carRental.core.Repositories;
 using carRental.core.Services;
 using carRental.data;
 using carRental.data.Repositories;
 using carRental.data.Repository;
 using carRental.service;
+using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +25,8 @@ builder.Services.AddScoped<IRentRepository, RentRepository>();
 builder.Services.AddScoped<IRenterRepository, RenterRepository>();
 
 builder.Services.AddDbContext<DataContext>();
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
